@@ -1,0 +1,54 @@
+
+{
+		"text" : "Time flies never to be recalled.",
+		"timestamp" : "Thursday",
+		"favourite_count" : "0",
+		"retweet_count" : "1",
+		"user" :
+			{
+				"screen_name" : "TruthLesser",
+				"name" : "Fery",
+				"followers_count":"10",
+				"friends_count" : "9",
+				"url_image" : "skyrim.gif"
+			}
+
+		
+},
+
+{
+		"text" : "Ever wonder how your files change over time? ",
+		"timestamp" : "Wednesday",
+		"favourite_count" : "2M",
+		"retweet_count" : "1M",
+		"user" :
+			{
+				"screen_name" : "GitHub",
+				"name" : "GitHub",
+				"followers_count":"3M",
+				"friends_count" : "2M",
+				"url_image" : "git.jpg"
+			}
+
+		
+},
+
+
+{
+		"text" : "Gain a better understanding of #Java Cryptography APIs and their applications.  ",
+		"timestamp" : "Saturdat",
+		"favourite_count" : "19M",
+		"retweet_count" : "10M",
+		"user" :
+			{
+				"screen_name" : "Java",
+				"name" : "Java",
+				"followers_count":"100M",
+				"friends_count" : "100M",
+				"url_image" : "java.jpg"
+			}
+
+		
+}
+
+]

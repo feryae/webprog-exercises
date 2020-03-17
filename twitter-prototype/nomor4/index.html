@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Soal No.4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- LOAD YOUR CSS HERE -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div>
+        <!-- PUT YOUR SELECTOR -->
+        <button>Show</button>
+        <button>Hide</button>
+        <button>Up</button>
+        <button>Left</button>
+        <button>Right</button>
+    </div>
+    
+    </div>
+    <div class="bean">
+        <!-- LOAD boo.png here -->
+        <img src="img/boo.png" id="boo" width="200" height="200" />
+        <div><p id="act" style="font-size: 45px">Active Button : </p></div>
+        <!-- End Of Load boo.png -->
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script>
+    $(document).ready(function(){
+        // Put Your JQuery Function here
+        
+        $('button:contains("Show")').click(function(){
+            $('#boo').css('display','inline');
+            $('#act').html('Active Button : Show');
+        });
+        $('button:contains("Hide")').click(function(){
+            $('#boo').css('display','none');
+            $('#act').html('Active Button : Hide');
+        });
+        $('button:contains("Up")').click(function(){
+            $('#boo').css('transform','rotateX(180deg)');
+            $('#act').html('Active Button : Up');
+        });
+        $('button:contains("Left")').click(function(){
+            $('#boo').css('transform','rotateY(0deg)');
+            $('#act').html('Active Button : Left');
+        });
+        $('button:contains("Right")').click(function(){
+            $('#boo').css('transform','rotateY(180deg)');
+            $('#act').html('Active Button : Right');
+        });
+    });
+</script>
+</body>
+</html>
