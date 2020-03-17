@@ -1,0 +1,32 @@
+#navbar{
+	background-color: lightblue ;
+	padding: 1%;
+	margin-bottom: 20px;
+}
+
+.elm1{
+	margin-left: 50px;
+
+	padding: 20%;
+	padding-right: 20px; 
+	background-color: lightblue;
+	margin-bottom: 500px;
+}
+
+.elm{
+	font-size: 20px;
+}
+#menu{
+	text-align: right;
+}
+.tabcol{
+	border-left: 1px;
+	border-left-style: dotted;
+	margin-left: 20px;
+
+}
+
+
+#TabText{
+	padding-bottom: 80%
+}
